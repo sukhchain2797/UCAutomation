@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="286631" started-at="2015-09-27T14:44:54Z" finished-at="2015-09-27T14:49:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="286631" started-at="2015-09-27T14:44:54Z" finished-at="2015-09-27T14:49:41Z">
+      <class name="test.test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.test@58623a98]" name="setUp" is-config="true" duration-ms="14149" started-at="2015-09-27T20:14:54Z" finished-at="2015-09-27T20:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.test@58623a98]" name="signUpTest" duration-ms="50142" started-at="2015-09-27T20:15:08Z" data-provider="signup" finished-at="2015-09-27T20:15:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8527720405]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dww@ws.ss]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test@58623a98]" name="tearDown" is-config="true" duration-ms="1085" started-at="2015-09-27T20:15:58Z" finished-at="2015-09-27T20:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.test@58623a98]" name="setUp" is-config="true" duration-ms="13165" started-at="2015-09-27T20:16:00Z" finished-at="2015-09-27T20:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginWithFacebook()[pri:0, instance:test.test@58623a98]" name="testLoginWithFacebook" duration-ms="22428" started-at="2015-09-27T20:16:13Z" finished-at="2015-09-27T20:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test@58623a98]" name="tearDown" is-config="true" duration-ms="869" started-at="2015-09-27T20:16:35Z" finished-at="2015-09-27T20:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.test@58623a98]" name="setUp" is-config="true" duration-ms="17373" started-at="2015-09-27T20:16:36Z" finished-at="2015-09-27T20:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogout(java.lang.String)[pri:0, instance:test.test@58623a98]" name="testLogout" duration-ms="41471" started-at="2015-09-27T20:16:53Z" data-provider="signin" finished-at="2015-09-27T20:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8527720405]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test@58623a98]" name="tearDown" is-config="true" duration-ms="1368" started-at="2015-09-27T20:17:35Z" finished-at="2015-09-27T20:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.test@58623a98]" name="setUp" is-config="true" duration-ms="14391" started-at="2015-09-27T20:17:36Z" finished-at="2015-09-27T20:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchAndCreatePackage()[pri:0, instance:test.test@58623a98]" name="testSearchAndCreatePackage" duration-ms="60223" started-at="2015-09-27T20:17:51Z" finished-at="2015-09-27T20:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAndCreatePackage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test@58623a98]" name="tearDown" is-config="true" duration-ms="1178" started-at="2015-09-27T20:18:51Z" finished-at="2015-09-27T20:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.test@58623a98]" name="setUp" is-config="true" duration-ms="12442" started-at="2015-09-27T20:18:52Z" finished-at="2015-09-27T20:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSignIN(java.lang.String)[pri:0, instance:test.test@58623a98]" name="testSignIN" duration-ms="35188" started-at="2015-09-27T20:19:04Z" data-provider="signin" finished-at="2015-09-27T20:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8527720405]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIN -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test@58623a98]" name="tearDown" is-config="true" duration-ms="1070" started-at="2015-09-27T20:19:40Z" finished-at="2015-09-27T20:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:test.test@58623a98]" name="AfterClass" is-config="true" duration-ms="52" started-at="2015-09-27T20:19:41Z" finished-at="2015-09-27T20:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- test.test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
