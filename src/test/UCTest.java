@@ -89,7 +89,6 @@ public class UCTest {
 	@Test(dataProvider = "signup")
 	public void signUpTest(String name, String mobileNumber, String email) throws InterruptedException, ExecuteException, IOException{
 		log.debug("urbanclap_test::Signup test Started");
-		commonFunction.executeCommand("adb shell settings put secure location_providers_allowed gps");
 		startApp();
 		homePage.clickLoginFromOverflowMenu(webDriver);
 		loginPage.signUp(webDriver, name, mobileNumber, email);

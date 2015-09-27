@@ -92,7 +92,7 @@ public class CommonFunction {
 		try {
 			wd.findElement(element).click();
 			log.debug("urbanclap_test::"+elementName+" clicked");
-		} catch (ElementNotFoundException e) {
+		} catch (Exception e) {
 			// TODO: handle exception
 			log.debug("urbanclap_test::"+elementName+" not Found");
 		}
