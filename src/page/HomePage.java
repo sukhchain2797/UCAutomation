@@ -1,8 +1,8 @@
 package page;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import io.appium.java_client.android.AndroidDriver;
 
+import org.openqa.selenium.By;
 import test.CommonFunction;
 
 public class HomePage {
@@ -14,18 +14,18 @@ public class HomePage {
 	private By loginInOverflowMenu = By.name("Login");
 	private By myProfileInOverflowMenu = By.name("My Profile");
 
-	public void selectProjectCategory(WebDriver wd) {
-		commonFunction.click(wd, projectsCategory, "Projects text on Home screen");
+	public void selectProjectCategory(AndroidDriver androidDriver) {
+		commonFunction.click(androidDriver, projectsCategory, "Projects text on Home screen");
 	}
 
 
-	public void clickLoginFromOverflowMenu(WebDriver wd) {
-		commonFunction.click(wd, overFlowMenu, "Overflow Menu on home screen");
-		commonFunction.click(wd, loginInOverflowMenu, "Log In text in overflow menu");
+	public void clickLoginFromOverflowMenu(AndroidDriver androidDriver) {
+		commonFunction.click(androidDriver, overFlowMenu, "Overflow Menu on home screen");
+		commonFunction.click(androidDriver, loginInOverflowMenu, "Log In text in overflow menu");
 	}
 
-	public void clickMyProfileFromOverflowMenu(WebDriver wd) {
-		commonFunction.click(wd, overFlowMenu, "Overflow Menu on home screen");
-		commonFunction.click(wd, myProfileInOverflowMenu, "My profile in Overflow menu");
+	public void clickMyProfileFromOverflowMenu(AndroidDriver androidDriver) {
+		commonFunction.click(androidDriver, overFlowMenu, "Overflow Menu on home screen");
+		commonFunction.click(androidDriver, myProfileInOverflowMenu, "My profile in Overflow menu");
 	}
 }

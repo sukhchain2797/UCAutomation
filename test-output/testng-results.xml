@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="286631" started-at="2015-09-27T14:44:54Z" finished-at="2015-09-27T14:49:41Z">
+  <suite name="Default suite" duration-ms="285375" started-at="2015-09-27T20:35:16Z" finished-at="2015-09-27T20:40:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="286631" started-at="2015-09-27T14:44:54Z" finished-at="2015-09-27T14:49:41Z">
-      <class name="test.test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.test@58623a98]" name="setUp" is-config="true" duration-ms="14149" started-at="2015-09-27T20:14:54Z" finished-at="2015-09-27T20:15:08Z">
+    <test name="Default test" duration-ms="285375" started-at="2015-09-27T20:35:16Z" finished-at="2015-09-27T20:40:01Z">
+      <class name="test.UCTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.UCTest@57c70722]" name="setUp" is-config="true" duration-ms="13482" started-at="2015-09-28T02:05:16Z" finished-at="2015-09-28T02:05:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signUpTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.test@58623a98]" name="signUpTest" duration-ms="50142" started-at="2015-09-27T20:15:08Z" data-provider="signup" finished-at="2015-09-27T20:15:58Z">
+        <test-method status="PASS" signature="signUpTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.UCTest@57c70722]" name="signUpTest" duration-ms="58960" started-at="2015-09-28T02:05:29Z" data-provider="signup" finished-at="2015-09-28T02:06:28Z">
           <params>
             <param index="0">
               <value>
@@ -32,27 +32,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test@58623a98]" name="tearDown" is-config="true" duration-ms="1085" started-at="2015-09-27T20:15:58Z" finished-at="2015-09-27T20:16:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.UCTest@57c70722]" name="tearDown" is-config="true" duration-ms="1297" started-at="2015-09-28T02:06:28Z" finished-at="2015-09-28T02:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.test@58623a98]" name="setUp" is-config="true" duration-ms="13165" started-at="2015-09-27T20:16:00Z" finished-at="2015-09-27T20:16:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.UCTest@57c70722]" name="setUp" is-config="true" duration-ms="12577" started-at="2015-09-28T02:06:29Z" finished-at="2015-09-28T02:06:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLoginWithFacebook()[pri:0, instance:test.test@58623a98]" name="testLoginWithFacebook" duration-ms="22428" started-at="2015-09-27T20:16:13Z" finished-at="2015-09-27T20:16:35Z">
+        <test-method status="PASS" signature="testLoginWithFacebook()[pri:0, instance:test.UCTest@57c70722]" name="testLoginWithFacebook" duration-ms="22393" started-at="2015-09-28T02:06:42Z" finished-at="2015-09-28T02:07:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithFacebook -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test@58623a98]" name="tearDown" is-config="true" duration-ms="869" started-at="2015-09-27T20:16:35Z" finished-at="2015-09-27T20:16:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.UCTest@57c70722]" name="tearDown" is-config="true" duration-ms="1322" started-at="2015-09-28T02:07:04Z" finished-at="2015-09-28T02:07:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.test@58623a98]" name="setUp" is-config="true" duration-ms="17373" started-at="2015-09-27T20:16:36Z" finished-at="2015-09-27T20:16:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.UCTest@57c70722]" name="setUp" is-config="true" duration-ms="12749" started-at="2015-09-28T02:07:06Z" finished-at="2015-09-28T02:07:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogout(java.lang.String)[pri:0, instance:test.test@58623a98]" name="testLogout" duration-ms="41471" started-at="2015-09-27T20:16:53Z" data-provider="signin" finished-at="2015-09-27T20:17:35Z">
+        <test-method status="PASS" signature="testLogout(java.lang.String)[pri:0, instance:test.UCTest@57c70722]" name="testLogout" duration-ms="39705" started-at="2015-09-28T02:07:18Z" data-provider="signin" finished-at="2015-09-28T02:07:58Z">
           <params>
             <param index="0">
               <value>
@@ -63,27 +63,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test@58623a98]" name="tearDown" is-config="true" duration-ms="1368" started-at="2015-09-27T20:17:35Z" finished-at="2015-09-27T20:17:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.UCTest@57c70722]" name="tearDown" is-config="true" duration-ms="1448" started-at="2015-09-28T02:07:58Z" finished-at="2015-09-28T02:07:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.test@58623a98]" name="setUp" is-config="true" duration-ms="14391" started-at="2015-09-27T20:17:36Z" finished-at="2015-09-27T20:17:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.UCTest@57c70722]" name="setUp" is-config="true" duration-ms="12291" started-at="2015-09-28T02:07:59Z" finished-at="2015-09-28T02:08:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testSearchAndCreatePackage()[pri:0, instance:test.test@58623a98]" name="testSearchAndCreatePackage" duration-ms="60223" started-at="2015-09-27T20:17:51Z" finished-at="2015-09-27T20:18:51Z">
+        <test-method status="PASS" signature="testSearchAndCreatePackage()[pri:0, instance:test.UCTest@57c70722]" name="testSearchAndCreatePackage" duration-ms="59149" started-at="2015-09-28T02:08:12Z" finished-at="2015-09-28T02:09:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchAndCreatePackage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test@58623a98]" name="tearDown" is-config="true" duration-ms="1178" started-at="2015-09-27T20:18:51Z" finished-at="2015-09-27T20:18:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.UCTest@57c70722]" name="tearDown" is-config="true" duration-ms="1114" started-at="2015-09-28T02:09:11Z" finished-at="2015-09-28T02:09:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.test@58623a98]" name="setUp" is-config="true" duration-ms="12442" started-at="2015-09-27T20:18:52Z" finished-at="2015-09-27T20:19:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.UCTest@57c70722]" name="setUp" is-config="true" duration-ms="11671" started-at="2015-09-28T02:09:12Z" finished-at="2015-09-28T02:09:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testSignIN(java.lang.String)[pri:0, instance:test.test@58623a98]" name="testSignIN" duration-ms="35188" started-at="2015-09-27T20:19:04Z" data-provider="signin" finished-at="2015-09-27T20:19:40Z">
+        <test-method status="PASS" signature="testSignIN(java.lang.String)[pri:0, instance:test.UCTest@57c70722]" name="testSignIN" duration-ms="36130" started-at="2015-09-28T02:09:24Z" data-provider="signin" finished-at="2015-09-28T02:10:00Z">
           <params>
             <param index="0">
               <value>
@@ -94,15 +94,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignIN -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test@58623a98]" name="tearDown" is-config="true" duration-ms="1070" started-at="2015-09-27T20:19:40Z" finished-at="2015-09-27T20:19:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.UCTest@57c70722]" name="tearDown" is-config="true" duration-ms="1001" started-at="2015-09-28T02:10:00Z" finished-at="2015-09-28T02:10:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:test.test@58623a98]" name="AfterClass" is-config="true" duration-ms="52" started-at="2015-09-27T20:19:41Z" finished-at="2015-09-27T20:19:41Z">
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:test.UCTest@57c70722]" name="AfterClass" is-config="true" duration-ms="48" started-at="2015-09-28T02:10:01Z" finished-at="2015-09-28T02:10:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-      </class> <!-- test.test -->
+      </class> <!-- test.UCTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,7 +1,8 @@
 package page;
 
+import io.appium.java_client.android.AndroidDriver;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 import test.CommonFunction;
 
@@ -12,12 +13,12 @@ public class SplashPage {
 
 	private By skipAppTour = By.name("SKIP");
 
-	public void clickOnSkip(WebDriver wd){
-		commonFunction.click(wd, skipAppTour, "Skip button");
+	public void clickOnSkip(AndroidDriver androidDriver){
+		commonFunction.click(androidDriver, skipAppTour, "Skip button");
 	}
 
-	public void selectCity(WebDriver wd, String city){
-		commonFunction.click(wd, By.name(city), city+" under cities");
+	public void selectCity(AndroidDriver androidDriver, String city){
+		commonFunction.click(androidDriver, By.name(city), city+" under cities");
 	}
 
 }

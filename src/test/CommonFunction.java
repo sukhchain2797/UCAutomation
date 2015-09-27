@@ -1,22 +1,20 @@
 package test;
 
 
-import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
+
 
 public class CommonFunction {
 
-	public static RemoteWebDriver driver;
 
 	private Logger log = Logger.getLogger(UCTest.class.getName());
 
@@ -58,18 +56,18 @@ public class CommonFunction {
 		
 	}
 
-	public void hideKeyboard()
+	public void hideKeyboard(AndroidDriver androidDriver)
 	{
 		try
 		{
-			((AppiumDriver<?>)driver).hideKeyboard();
+			androidDriver.hideKeyboard();
 		}
 		catch(Exception e)
 		{
 			System.out.println("Softkeyboard not present");
 		}
 	}
-
+	
 
 	public void createFileIfNotExist(String fileName) throws FileNotFoundException, IOException {
 		try {
@@ -87,10 +85,20 @@ public class CommonFunction {
 			e.printStackTrace();
 		}
 	}
-
-	public void click(WebDriver wd, By element, String elementName) {
+	
+	public  boolean isElementPresent(AndroidDriver androidDriver,
+			By locator) {
 		try {
-			wd.findElement(element).click();
+			androidDriver.findElement(locator);
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+
+	public void click(AndroidDriver androidDriver, By element, String elementName) {
+		try {
+			androidDriver.findElement(element).click();
 			log.debug("urbanclap_test::"+elementName+" clicked");
 		} catch (Exception e) {
 			// TODO: handle exception

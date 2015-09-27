@@ -1,58 +1,58 @@
-2015-09-27 20:15:08 DEBUG test:91 - urbanclap_test::Signup test Started
-2015-09-27 20:15:17 DEBUG test:94 - urbanclap_test::Skip button clicked
-2015-09-27 20:15:20 DEBUG test:94 - urbanclap_test::Delhi NCR under cities clicked
-2015-09-27 20:15:22 DEBUG test:94 - urbanclap_test::Overflow Menu on home screen clicked
-2015-09-27 20:15:25 DEBUG test:94 - urbanclap_test::Log In text in overflow menu clicked
-2015-09-27 20:15:26 DEBUG test:94 - urbanclap_test::Sign Up option on Login Screen clicked
-2015-09-27 20:15:48 DEBUG test:94 - urbanclap_test::Sign Up button on Sign up screen clicked
-2015-09-27 20:15:58 DEBUG test:97 - urbanclap_test::Signup test Ended
-2015-09-27 20:16:13 DEBUG test:124 - urbanclap_test::Login with facebook test Started
-2015-09-27 20:16:21 DEBUG test:94 - urbanclap_test::Skip button clicked
-2015-09-27 20:16:24 DEBUG test:94 - urbanclap_test::Delhi NCR under cities clicked
-2015-09-27 20:16:27 DEBUG test:94 - urbanclap_test::Overflow Menu on home screen clicked
-2015-09-27 20:16:29 DEBUG test:94 - urbanclap_test::Log In text in overflow menu clicked
-2015-09-27 20:16:30 DEBUG test:94 - urbanclap_test::Log In with facebook option on Login Screen clicked
-2015-09-27 20:16:35 DEBUG test:129 - urbanclap_test::Login with facebook test Ended
-2015-09-27 20:16:53 DEBUG test:112 - urbanclap_test::logout test Started
-2015-09-27 20:17:01 DEBUG test:94 - urbanclap_test::Skip button clicked
-2015-09-27 20:17:05 DEBUG test:94 - urbanclap_test::Delhi NCR under cities clicked
-2015-09-27 20:17:07 DEBUG test:94 - urbanclap_test::Overflow Menu on home screen clicked
-2015-09-27 20:17:10 DEBUG test:94 - urbanclap_test::Log In text in overflow menu clicked
-2015-09-27 20:17:11 DEBUG test:94 - urbanclap_test::Log In option on Login Screen clicked
-2015-09-27 20:17:21 DEBUG test:94 - urbanclap_test::Log In button on Login Screen clicked
-2015-09-27 20:17:32 DEBUG test:94 - urbanclap_test::Overflow Menu on home screen clicked
-2015-09-27 20:17:34 DEBUG test:94 - urbanclap_test::My profile in Overflow menu clicked
-2015-09-27 20:17:35 DEBUG test:94 - urbanclap_test::LogOut option on my profile clicked
-2015-09-27 20:17:35 DEBUG test:119 - urbanclap_test::logout test Ended
-2015-09-27 20:17:51 DEBUG test:134 - urbanclap_test::Search and Create Package test Started
-2015-09-27 20:17:58 DEBUG test:94 - urbanclap_test::Skip button clicked
-2015-09-27 20:18:01 DEBUG test:94 - urbanclap_test::Delhi NCR under cities clicked
-2015-09-27 20:18:04 DEBUG test:94 - urbanclap_test::Projects text on Home screen clicked
-2015-09-27 20:18:06 DEBUG test:94 - urbanclap_test::Search Now button on Projects page clicked
-2015-09-27 20:18:17 DEBUG test:94 - urbanclap_test::Salon at Home for Women in search result clicked
-2015-09-27 20:18:18 DEBUG test:94 - urbanclap_test::Start text clicked
-2015-09-27 20:18:20 DEBUG test:94 - urbanclap_test::Next text clicked
-2015-09-27 20:18:22 DEBUG test:94 - urbanclap_test::Make your own package radio button clicked
-2015-09-27 20:18:23 DEBUG test:94 - urbanclap_test::Next text for radiobutton screen clicked
-2015-09-27 20:18:25 DEBUG test:94 - urbanclap_test::Manicure under checklist clicked
-2015-09-27 20:18:26 DEBUG test:94 - urbanclap_test::Pedicure under checklist clicked
-2015-09-27 20:18:27 DEBUG test:94 - urbanclap_test::Next text for checklist screen clicked
-2015-09-27 20:18:29 DEBUG test:94 - urbanclap_test::Normal (Rs 250) radio button clicked
-2015-09-27 20:18:30 DEBUG test:94 - urbanclap_test::Next text for radiobutton screen clicked
-2015-09-27 20:18:32 DEBUG test:94 - urbanclap_test::Lotus (Rs 550) radio button clicked
-2015-09-27 20:18:33 DEBUG test:94 - urbanclap_test::Next text for radiobutton screen clicked
-2015-09-27 20:18:34 DEBUG test:94 - urbanclap_test::Select Date Option clicked
-2015-09-27 20:18:36 DEBUG test:94 - urbanclap_test::Wednesday - 30th Sep selected clicked
-2015-09-27 20:18:37 DEBUG test:94 - urbanclap_test::Select time Option clicked
-2015-09-27 20:18:40 DEBUG test:94 - urbanclap_test::2:00 PM - 3:00 PM selected clicked
-2015-09-27 20:18:40 DEBUG test:94 - urbanclap_test::Next text clicked
-2015-09-27 20:18:46 DEBUG test:94 - urbanclap_test::Get location option clicked
-2015-09-27 20:18:51 DEBUG test:154 - urbanclap_test::Search and Create Package test Ended
-2015-09-27 20:19:04 DEBUG test:102 - urbanclap_test::Signin test Started
-2015-09-27 20:19:12 DEBUG test:94 - urbanclap_test::Skip button clicked
-2015-09-27 20:19:15 DEBUG test:94 - urbanclap_test::Delhi NCR under cities clicked
-2015-09-27 20:19:17 DEBUG test:94 - urbanclap_test::Overflow Menu on home screen clicked
-2015-09-27 20:19:19 DEBUG test:94 - urbanclap_test::Log In text in overflow menu clicked
-2015-09-27 20:19:20 DEBUG test:94 - urbanclap_test::Log In option on Login Screen clicked
-2015-09-27 20:19:30 DEBUG test:94 - urbanclap_test::Log In button on Login Screen clicked
-2015-09-27 20:19:40 DEBUG test:107 - urbanclap_test::Signin test Ended
+2015-09-28 02:05:29 DEBUG UCTest:93 - urbanclap_test::Signup test Started
+2015-09-28 02:05:37 DEBUG UCTest:102 - urbanclap_test::Skip button clicked
+2015-09-28 02:05:39 DEBUG UCTest:102 - urbanclap_test::Delhi NCR under cities clicked
+2015-09-28 02:05:41 DEBUG UCTest:102 - urbanclap_test::Overflow Menu on home screen clicked
+2015-09-28 02:05:44 DEBUG UCTest:102 - urbanclap_test::Log In text in overflow menu clicked
+2015-09-28 02:05:45 DEBUG UCTest:102 - urbanclap_test::Sign Up option on Login Screen clicked
+2015-09-28 02:06:18 DEBUG UCTest:102 - urbanclap_test::Sign Up button on Sign up screen clicked
+2015-09-28 02:06:28 DEBUG UCTest:98 - urbanclap_test::Signup test Ended
+2015-09-28 02:06:42 DEBUG UCTest:125 - urbanclap_test::Login with facebook test Started
+2015-09-28 02:06:50 DEBUG UCTest:102 - urbanclap_test::Skip button clicked
+2015-09-28 02:06:52 DEBUG UCTest:102 - urbanclap_test::Delhi NCR under cities clicked
+2015-09-28 02:06:55 DEBUG UCTest:102 - urbanclap_test::Overflow Menu on home screen clicked
+2015-09-28 02:06:58 DEBUG UCTest:102 - urbanclap_test::Log In text in overflow menu clicked
+2015-09-28 02:06:59 DEBUG UCTest:102 - urbanclap_test::Log In with facebook option on Login Screen clicked
+2015-09-28 02:07:04 DEBUG UCTest:130 - urbanclap_test::Login with facebook test Ended
+2015-09-28 02:07:18 DEBUG UCTest:113 - urbanclap_test::logout test Started
+2015-09-28 02:07:26 DEBUG UCTest:102 - urbanclap_test::Skip button clicked
+2015-09-28 02:07:29 DEBUG UCTest:102 - urbanclap_test::Delhi NCR under cities clicked
+2015-09-28 02:07:32 DEBUG UCTest:102 - urbanclap_test::Overflow Menu on home screen clicked
+2015-09-28 02:07:34 DEBUG UCTest:102 - urbanclap_test::Log In text in overflow menu clicked
+2015-09-28 02:07:35 DEBUG UCTest:102 - urbanclap_test::Log In option on Login Screen clicked
+2015-09-28 02:07:44 DEBUG UCTest:102 - urbanclap_test::Log In button on Login Screen clicked
+2015-09-28 02:07:55 DEBUG UCTest:102 - urbanclap_test::Overflow Menu on home screen clicked
+2015-09-28 02:07:57 DEBUG UCTest:102 - urbanclap_test::My profile in Overflow menu clicked
+2015-09-28 02:07:58 DEBUG UCTest:102 - urbanclap_test::LogOut option on my profile clicked
+2015-09-28 02:07:58 DEBUG UCTest:120 - urbanclap_test::logout test Ended
+2015-09-28 02:08:12 DEBUG UCTest:135 - urbanclap_test::Search and Create Package test Started
+2015-09-28 02:08:20 DEBUG UCTest:102 - urbanclap_test::Skip button clicked
+2015-09-28 02:08:22 DEBUG UCTest:102 - urbanclap_test::Delhi NCR under cities clicked
+2015-09-28 02:08:24 DEBUG UCTest:102 - urbanclap_test::Projects text on Home screen clicked
+2015-09-28 02:08:26 DEBUG UCTest:102 - urbanclap_test::Search Now button on Projects page clicked
+2015-09-28 02:08:37 DEBUG UCTest:102 - urbanclap_test::Salon at Home for Women in search result clicked
+2015-09-28 02:08:39 DEBUG UCTest:102 - urbanclap_test::Start text clicked
+2015-09-28 02:08:40 DEBUG UCTest:102 - urbanclap_test::Next text clicked
+2015-09-28 02:08:42 DEBUG UCTest:102 - urbanclap_test::Make your own package radio button clicked
+2015-09-28 02:08:43 DEBUG UCTest:102 - urbanclap_test::Next text for radiobutton screen clicked
+2015-09-28 02:08:45 DEBUG UCTest:102 - urbanclap_test::Manicure under checklist clicked
+2015-09-28 02:08:46 DEBUG UCTest:102 - urbanclap_test::Pedicure under checklist clicked
+2015-09-28 02:08:47 DEBUG UCTest:102 - urbanclap_test::Next text for checklist screen clicked
+2015-09-28 02:08:49 DEBUG UCTest:102 - urbanclap_test::Normal (Rs 250) radio button clicked
+2015-09-28 02:08:50 DEBUG UCTest:102 - urbanclap_test::Next text for radiobutton screen clicked
+2015-09-28 02:08:52 DEBUG UCTest:102 - urbanclap_test::Lotus (Rs 550) radio button clicked
+2015-09-28 02:08:53 DEBUG UCTest:102 - urbanclap_test::Next text for radiobutton screen clicked
+2015-09-28 02:08:55 DEBUG UCTest:102 - urbanclap_test::Select Date Option clicked
+2015-09-28 02:08:57 DEBUG UCTest:102 - urbanclap_test::Wednesday - 30th Sep selected clicked
+2015-09-28 02:08:58 DEBUG UCTest:102 - urbanclap_test::Select time Option clicked
+2015-09-28 02:08:59 DEBUG UCTest:102 - urbanclap_test::2:00 PM - 3:00 PM selected clicked
+2015-09-28 02:09:01 DEBUG UCTest:102 - urbanclap_test::Next text clicked
+2015-09-28 02:09:06 DEBUG UCTest:102 - urbanclap_test::Get location option clicked
+2015-09-28 02:09:11 DEBUG UCTest:155 - urbanclap_test::Search and Create Package test Ended
+2015-09-28 02:09:24 DEBUG UCTest:103 - urbanclap_test::Signin test Started
+2015-09-28 02:09:31 DEBUG UCTest:102 - urbanclap_test::Skip button clicked
+2015-09-28 02:09:34 DEBUG UCTest:102 - urbanclap_test::Delhi NCR under cities clicked
+2015-09-28 02:09:37 DEBUG UCTest:102 - urbanclap_test::Overflow Menu on home screen clicked
+2015-09-28 02:09:39 DEBUG UCTest:102 - urbanclap_test::Log In text in overflow menu clicked
+2015-09-28 02:09:40 DEBUG UCTest:102 - urbanclap_test::Log In option on Login Screen clicked
+2015-09-28 02:09:50 DEBUG UCTest:102 - urbanclap_test::Log In button on Login Screen clicked
+2015-09-28 02:10:00 DEBUG UCTest:108 - urbanclap_test::Signin test Ended

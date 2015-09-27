@@ -1,7 +1,8 @@
 package page;
 
+import io.appium.java_client.android.AndroidDriver;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 import test.CommonFunction;
 
@@ -12,8 +13,8 @@ public class MyProfilePage {
 
 	private By logOut = By.name("Logout");
 
-	public void clickLogout(WebDriver wd) {
-		commonFunction.click(wd, logOut, "LogOut option on my profile");
+	public void clickLogout(AndroidDriver androidDriver) {
+		commonFunction.click(androidDriver, logOut, "LogOut option on my profile");
 	}
 
 }

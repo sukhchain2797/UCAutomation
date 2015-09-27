@@ -1,8 +1,8 @@
 package page;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import io.appium.java_client.android.AndroidDriver;
 
+import org.openqa.selenium.By;
 import test.CommonFunction;
 
 public class LoginPage {
@@ -19,27 +19,27 @@ public class LoginPage {
 	private By loginWithFacebook = By.name("Log in with Facebook");
 
 
-	public void signUp(WebDriver wd, String Name, String Number, String Email) {
-		commonFunction.click(wd, signUpOption, "Sign Up option on Login Screen");
-		wd.findElement(signUpName).sendKeys(Name);
-		commonFunction.hideKeyboard();
-		wd.findElement(mobileNumberField).sendKeys(Number);
-		commonFunction.hideKeyboard();
-		wd.findElement(signUpEmailId).sendKeys(Email);
-		commonFunction.hideKeyboard();
-		commonFunction.click(wd, signUpButton, "Sign Up button on Sign up screen");
+	public void signUp(AndroidDriver androidDriver, String Name, String Number, String Email) {
+		commonFunction.click(androidDriver, signUpOption, "Sign Up option on Login Screen");
+		androidDriver.findElement(signUpName).sendKeys(Name);
+		commonFunction.hideKeyboard(androidDriver);
+		androidDriver.findElement(mobileNumberField).sendKeys(Number);
+		commonFunction.hideKeyboard(androidDriver);
+		androidDriver.findElement(signUpEmailId).sendKeys(Email);
+		commonFunction.hideKeyboard(androidDriver);
+		commonFunction.click(androidDriver, signUpButton, "Sign Up button on Sign up screen");
 
 	}
 
-	public void signIn(WebDriver wd, String Number) {
-		commonFunction.click(wd, loginOnLoginScreen, "Log In option on Login Screen");
-		wd.findElement(mobileNumberField).sendKeys(Number);
-		commonFunction.click(wd, loginButton, "Log In button on Login Screen");
+	public void signIn(AndroidDriver androidDriver, String Number) {
+		commonFunction.click(androidDriver, loginOnLoginScreen, "Log In option on Login Screen");
+		androidDriver.findElement(mobileNumberField).sendKeys(Number);
+		commonFunction.click(androidDriver, loginButton, "Log In button on Login Screen");
 
 	}
 
-	public void loginWithFacebook(WebDriver wd) {
-		commonFunction.click(wd, loginWithFacebook, "Log In with facebook option on Login Screen");
+	public void loginWithFacebook(AndroidDriver androidDriver) {
+		commonFunction.click(androidDriver, loginWithFacebook, "Log In with facebook option on Login Screen");
 	}
 
 }

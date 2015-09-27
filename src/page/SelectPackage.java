@@ -1,7 +1,8 @@
 package page;
 
+import io.appium.java_client.android.AndroidDriver;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 import test.CommonFunction;
 
@@ -17,38 +18,38 @@ public class SelectPackage {
 	private By getLocation = By.name("Click to get current location");
 
 
-	public void clickStart(WebDriver wd){
-		commonFunction.click(wd, startText, "Start text");
+	public void clickStart(AndroidDriver androidDriver){
+		commonFunction.click(androidDriver, startText, "Start text");
 	}
 
-	public void clickNext(WebDriver wd) {
-		commonFunction.click(wd, nextText, "Next text");
+	public void clickNext(AndroidDriver androidDriver) {
+		commonFunction.click(androidDriver, nextText, "Next text");
 	}
 
-	public void selectRadioButton(WebDriver wd, String Radiobuttontext){
-		commonFunction.click(wd, By.name(Radiobuttontext), Radiobuttontext+" radio button");
-		commonFunction.click(wd, nextText, "Next text for radiobutton screen");
+	public void selectRadioButton(AndroidDriver androidDriver, String Radiobuttontext){
+		commonFunction.click(androidDriver, By.name(Radiobuttontext), Radiobuttontext+" radio button");
+		commonFunction.click(androidDriver, nextText, "Next text for radiobutton screen");
 	}
 
-	public void selectCheckList(WebDriver wd, String[] Checklist) {
+	public void selectCheckList(AndroidDriver androidDriver, String[] Checklist) {
 		for(int i=0; i<Checklist.length; i++)
 		{
-			commonFunction.click(wd, By.name(Checklist[i]), Checklist[i]+" under checklist");
+			commonFunction.click(androidDriver, By.name(Checklist[i]), Checklist[i]+" under checklist");
 		}
-		commonFunction.click(wd, nextText, "Next text for checklist screen");
+		commonFunction.click(androidDriver, nextText, "Next text for checklist screen");
 	}
 
-	public void selectDate(WebDriver wd, String date){
-		commonFunction.click(wd, dateOption, "Select Date Option");
-		commonFunction.click(wd, By.name(date), date+" selected");
+	public void selectDate(AndroidDriver androidDriver, String date){
+		commonFunction.click(androidDriver, dateOption, "Select Date Option");
+		commonFunction.click(androidDriver, By.name(date), date+" selected");
 	}
 
-	public void selectTime(WebDriver wd, String time) {
-		commonFunction.click(wd, timeOption, "Select time Option");
-		commonFunction.click(wd, By.name(time), time+" selected");
+	public void selectTime(AndroidDriver androidDriver, String time) {
+		commonFunction.click(androidDriver, timeOption, "Select time Option");
+		commonFunction.click(androidDriver, By.name(time), time+" selected");
 	}
 
-	public void clickOnGetLocation(WebDriver wd) {
-		commonFunction.click(wd, getLocation, "Get location option");
+	public void clickOnGetLocation(AndroidDriver androidDriver) {
+		commonFunction.click(androidDriver, getLocation, "Get location option");
 	}
 }

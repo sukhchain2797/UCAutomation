@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.test">
+      <class name="test.UCTest">
         <methods>
-          <include name="signUpTest" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="AfterClass"/>
           <include name="setUp"/>
+          <include name="AfterClass"/>
+          <include name="tearDown"/>
+          <include name="signUpTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- test.test -->
+      </class> <!-- test.UCTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
