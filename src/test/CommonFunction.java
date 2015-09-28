@@ -17,7 +17,12 @@ public class CommonFunction {
 
 
 	private Logger log = Logger.getLogger(UCTest.class.getName());
+	
+	private String adbPath = "/Users/sukhchain/Desktop/Android-Development/adt-bundle-mac-x86_64-20131030/sdk/platform-tools/";
 
+	public String getAdbPath() {
+		return adbPath;
+	}
 
 	public String executeCommand(String command) {
 

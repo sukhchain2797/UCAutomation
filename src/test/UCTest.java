@@ -73,7 +73,7 @@ public class UCTest {
 		commonFunction.executeCommand("rm uiauto.log");
 		commonFunction.executeCommand("rm log.out");
 		commonFunction.executeCommand("cp /tmp/appium.log .");
-		commonFunction.executeCommand("adb logcat | grep urbanclap > uiauto.log");
+		commonFunction.executeCommand(commonFunction.getAdbPath()+"adb logcat | grep urbanclap > uiauto.log");
 		commonFunction.executeCommand("mv /tmp/log.out .");
 		commonFunction.generateReport();
 	}
@@ -148,7 +148,7 @@ public class UCTest {
 		selectPackage.selectDate(driver, "Wednesday - 30th Sep");
 		selectPackage.selectTime(driver, "2:00 PM - 3:00 PM");
 		selectPackage.clickNext(driver);
-		commonFunction.executeCommand("adb shell settings put secure location_providers_allowed gps");
+		commonFunction.executeCommand(commonFunction.getAdbPath()+"adb shell settings put secure location_providers_allowed gps");
 		Thread.sleep(5000);
 		selectPackage.clickOnGetLocation(driver);   
 		Thread.sleep(5000);
